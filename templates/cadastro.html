@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Novo aluno</title>
+
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Novo Produto</h1>
+
+        <form method="POST">
+
+            <label>Nome do Produto</label>
+
+            <input
+                type="text"
+                name="nome"
+                placeholder="Digite o nome do Produto"
+                required
+            >
+
+            <label>Categoria</label>
+
+            <input
+                type="text"
+                name="categoria"
+                placeholder="Digite a categoria"
+                required
+            >
+
+            <label>Preço</label>
+
+            <input
+                type="number"
+                name="preco"
+                placeholder="Digite o preço"
+                step="0.01"
+                required
+            >
+
+            <label>Estoque</label>
+
+            <input
+                type="number"
+                name="estoque"
+                placeholder="Digite a quantidade em estoque"
+                required
+                required
+            >
+
+           
+
+            <button type="submit">
+                Cadastrar
+            </button>
+
+        </form>
+
+        <a href="/" class="voltar">
+            Voltar
+        </a>
+
+    </div>
+
+</body>
+
+</html>
